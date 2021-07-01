@@ -49,10 +49,11 @@ Raspberry Pi based portable device
    curl https://raw.githubusercontent.com/jbmorley/raspberry-pi-portable/main/11-ftdi.rules | sudo tee /etc/udev/rules.d/11-ftdi.rules 
    ```
    
-   Install the Python FTDI library.
+   Install the Python FTDI library and Adafruit Blinka (which may or may not actually be necessary).
    
    ```bash
    pip3 install pyusb
    pip3 install pyftdi
+   pip3 install adafruit-blinka
    ```
 
