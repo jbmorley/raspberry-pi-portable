@@ -30,14 +30,20 @@ Raspberry Pi based portable device
    ```bash
    mosh pi@raspberrypi.local
    ```
+   
+3. Install some useful software.
 
-3. Install the HyperPixel driver (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-hyperpixel-4).
+   ```bash
+   sudo apt-get install --yes emacs
+   ```
+
+4. Install the HyperPixel driver (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-hyperpixel-4).
 
    ```bash
    curl https://get.pimoroni.com/hyperpixel4 | bash
    ```
 
-4. Install the Python USB libraries for communicating with the GPIO expansion board (https://learn.adafruit.com/circuitpython-on-any-computer-with-ft232h/linux).
+5. Install the Python USB libraries for communicating with the GPIO expansion board (https://learn.adafruit.com/circuitpython-on-any-computer-with-ft232h/linux).
 
    ```bash
    sudo apt-get install --yes libusb-1.0
