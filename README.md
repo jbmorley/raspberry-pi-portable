@@ -68,7 +68,31 @@ Raspberry Pi based portable device
    ```bash
    echo "export BLINKA_FT232H=1" >> ~/.bashrc
    ```
+   
+6. Check out that the IO code is running correctly.
 
+   ```python
+   #!/usr/bin/env python3
+
+   import time
+
+   import board
+   import digitalio
+
+
+   def main():
+
+       button = digitalio.DigitalInOut(board.C1)
+       button.direction = digitalio.Direction.INPUT
+
+       while True:
+           print(button.value)
+           time.sleep(1)
+
+
+   if __name__ == "__main__":
+       main()
+   ```
 
 ## Open Quesitons
 
