@@ -29,7 +29,7 @@ Raspberry Pi based portable device
    mosh pi@raspberrypi.local
    ```
 
-3. Install the HyperPixel driver:
+3. Install the HyperPixel driver.
 
    ```bash
    curl https://get.pimoroni.com/hyperpixel4 | bash
