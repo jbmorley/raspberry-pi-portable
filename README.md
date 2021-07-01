@@ -17,3 +17,9 @@ Raspberry Pi based portable device
    ```bash
    sudo apt-get install --yes mosh
    ```
+
+   You can reconnect to your Raspberry Pi using Mosh as follows:
+   
+   ```bash
+   mosh pi@raspberrypi.local
+   ```
