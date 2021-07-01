@@ -9,5 +9,5 @@ Raspberry Pi based portable device
    ```bash
    sudo apt-get update
    sudo apt-get --yes upgrade
-   sudo apt-get autoremove
+   sudo apt-get --yes autoremove
    ```
