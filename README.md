@@ -57,3 +57,8 @@ Raspberry Pi based portable device
    pip3 install adafruit-blinka
    ```
 
+   Ensure the Blinka knows that there's FT232H hardware connected.
+   
+   ```bash
+   echo "export BLINKA_FT232H=1" >> ~/.bashrc
+   ```
