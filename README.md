@@ -46,10 +46,12 @@ Raspberry Pi based portable device
    Install the udev rules.
    
    ```bash
-   sudo nano /etc/udev/rules.d/11-ftdi.rules
+   curl https://raw.githubusercontent.com/jbmorley/raspberry-pi-portable/main/11-ftdi.rules | sudo tee /etc/udev/rules.d/11-ftdi.rules 
    ```
 
-   ```bash
-   pip3 install pyusb
-   pip3 install pyftdi
-   ```
+---
+
+```bash
+pip3 install pyusb
+pip3 install pyftdi
+```
