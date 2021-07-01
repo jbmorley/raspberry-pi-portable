@@ -4,7 +4,7 @@ Raspberry Pi based portable device
 
 ## Configuration
 
-1. Update Raspbian:
+1. Ensure Raspbian is up to date:
 
    ```bash
    sudo apt-get update
