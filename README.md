@@ -9,7 +9,7 @@ Raspberry Pi based portable device
 - [Adafruit PowerBoost 1000 Charger](https://www.adafruit.com/product/2465)
 - [ATXRaspi R3](https://lowpowerlab.com/shop/product/91)
 
-## Configuration
+## Software
 
 1. Ensure Raspbian is up to date.
 
