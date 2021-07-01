@@ -36,3 +36,10 @@ Raspberry Pi based portable device
    ```bash
    curl https://get.pimoroni.com/hyperpixel4 | bash
    ```
+
+4. Install the Python USB libraries for communicating with the GPIO expansion board.
+
+   ```bash
+   pip3 install pyusb
+   pip3 install pyftdi
+   ```
