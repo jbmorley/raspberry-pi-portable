@@ -7,6 +7,7 @@ Raspberry Pi based portable device
 - [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)
 - [Pimoroni HyperPixel 4.0 Square](https://shop.pimoroni.com/products/hyperpixel-4-square?variant=30138251444307)
 - [Adafruit PowerBoost 1000 Charger](https://www.adafruit.com/product/2465)
+- [ATXRaspi R3](https://lowpowerlab.com/shop/product/91)
 
 ## Configuration
 
