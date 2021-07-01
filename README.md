@@ -37,7 +37,7 @@ Raspberry Pi based portable device
    curl https://get.pimoroni.com/hyperpixel4 | bash
    ```
 
-4. Install the Python USB libraries for communicating with the GPIO expansion board.
+4. Install the Python USB libraries for communicating with the GPIO expansion board (see https://learn.adafruit.com/circuitpython-on-any-computer-with-ft232h/linux for the original Adafruit documentation).
 
    ```bash
    pip3 install pyusb
