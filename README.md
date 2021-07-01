@@ -48,10 +48,11 @@ Raspberry Pi based portable device
    ```bash
    curl https://raw.githubusercontent.com/jbmorley/raspberry-pi-portable/main/11-ftdi.rules | sudo tee /etc/udev/rules.d/11-ftdi.rules 
    ```
+   
+   Install the Python FTDI library.
+   
+   ```bash
+   pip3 install pyusb
+   pip3 install pyftdi
+   ```
 
----
-
-```bash
-pip3 install pyusb
-pip3 install pyftdi
-```
