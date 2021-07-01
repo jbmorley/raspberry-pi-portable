@@ -42,6 +42,12 @@ Raspberry Pi based portable device
    ```bash
    sudo apt-get install --yes libusb-1.0
    ```
+   
+   Install the udev rules.
+   
+   ```bash
+   sudo nano /etc/udev/rules.d/11-ftdi.rules
+   ```
 
    ```bash
    pip3 install pyusb
