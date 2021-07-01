@@ -68,3 +68,8 @@ Raspberry Pi based portable device
    ```bash
    echo "export BLINKA_FT232H=1" >> ~/.bashrc
    ```
+
+
+## Open Quesitons
+
+[ ] Does the IO board have pull up / pull down resistors?
