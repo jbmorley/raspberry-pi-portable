@@ -2,6 +2,11 @@
 
 Raspberry Pi based portable device
 
+## Hardware
+
+- [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)
+- [Pimoroni HyperPixel 4.0 Square](https://shop.pimoroni.com/products/hyperpixel-4-square?variant=30138251444307)
+
 ## Configuration
 
 1. Ensure Raspbian is up to date.
