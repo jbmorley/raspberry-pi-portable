@@ -95,6 +95,10 @@ Raspberry Pi based portable device
        main()
    ```
 
-## Open Quesitons
+## Open Quesitons 
 
 [ ] Does the IO board have pull up / pull down resistors?
+
+## Notes
+
+- Some good systemd documentation at https://www.raspberrypi.org/documentation/linux/usage/systemd.md.
