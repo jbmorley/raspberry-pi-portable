@@ -19,3 +19,6 @@ sudo cp 11-ftdi.rules /etc/udev/rules.d/11-ftdi.rules
 
 # Install the Python requirements.
 pip3 install -r requirements.txt
+
+# Install the service
+sudo atx-monitor/atx-monitor install
