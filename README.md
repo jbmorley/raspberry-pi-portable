@@ -23,19 +23,7 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
    sudo apt-get --yes upgrade
    sudo apt-get --yes autoremove
    ```
-
-2. [Mosh](https://mosh.org/) is useful to have around in case your laptop goes to sleep during the rest of the process or your on an unreliable network.
-
-   ```bash
-   sudo apt-get install --yes mosh
-   ```
-
-   You can reconnect to your Raspberry Pi using Mosh as follows:
    
-   ```bash
-   mosh pi@raspberrypi.local
-   ```
-
 4. Install the HyperPixel driver (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-hyperpixel-4).
 
    ```bash
