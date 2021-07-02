@@ -1,0 +1,3 @@
+adafruit-blinka
+pyftdi
+pyusb
