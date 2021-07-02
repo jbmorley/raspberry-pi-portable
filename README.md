@@ -2,6 +2,10 @@
 
 Raspberry Pi based portable device
 
+## Overview
+
+There are many Raspberry Pi portables out there--I wanted to make one of my own using the Pimoroni 4" square capacitive touch screen display. I'm thinking about using it to revisit a virtual pet project I worked on many years ago (https://jbmorley.co.uk/posts/2006-08-18-nezumi/).
+
 ## Hardware
 
 - [Raspberry Pi Zero](https://www.raspberrypi.org/products/raspberry-pi-zero/)
