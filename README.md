@@ -102,6 +102,12 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
    if __name__ == "__main__":
        main()
    ```
+   
+7. Enable the service.
+
+   ```bash
+   sudo systemctl enable atx-monitor.service
+   ```
 
 ## Notes
 
