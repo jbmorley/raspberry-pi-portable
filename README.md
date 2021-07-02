@@ -107,6 +107,7 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
 
    ```bash
    sudo systemctl enable atx-monitor.service
+   sudo systemctl start atx-monitor.service
    ```
    
 8. Check the service is running.
