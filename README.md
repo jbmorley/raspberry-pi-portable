@@ -36,19 +36,13 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
    mosh pi@raspberrypi.local
    ```
       
-3. Install the service.
-
-   ```bash
-   sudo atx-monitor/atx-monitor install
-   ```
-   
-4. Check the service is running.
+3. Check the service is running.
 
    ```bash
    atx-monitor/atx-monitor log
    ```
 
-5. Reboot.
+4. Reboot.
 
 ## Notes
 
