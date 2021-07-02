@@ -1,10 +1,9 @@
 [Unit]
-Description=My service
+Description=ATX Monitor
 After=network.target
 
 [Service]
-ExecStart=/home/pi/Projects/raspberry-pi-portable/atx-monitor/atx-monitor
-WorkingDirectory=/home/pi
+ExecStart={{ path }} monitor
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
