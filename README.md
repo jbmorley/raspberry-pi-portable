@@ -40,23 +40,15 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
 
    ```bash
    sudo atx-monitor/atx-monitor install
-   ...
-   ```
-  
-5. Enable and start the service.
-
-   ```bash
-   sudo systemctl enable atx-monitor.service
-   sudo systemctl start atx-monitor.service
    ```
    
-5. Check the service is running.
+4. Check the service is running.
 
    ```bash
-   journalctl -u atx-monitor.service -f
+   atx-monitor/atx-monitor log
    ```
 
-6. Reboot.
+5. Reboot.
 
 ## Notes
 
