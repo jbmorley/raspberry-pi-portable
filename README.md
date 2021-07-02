@@ -54,10 +54,11 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
    git@github.com:jbmorley/raspberry-pi-portable.git
    ```
    
-5. Install pipenv.
+5. Run the install script.
 
    ```bash
-   pip3 install pipenv
+   cd reaspberry-pi-portable
+   ./install.sh
    ```
 
 5. Install the Python USB libraries for communicating with the GPIO expansion board (https://learn.adafruit.com/circuitpython-on-any-computer-with-ft232h/linux).
