@@ -35,12 +35,6 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
    ```bash
    mosh pi@raspberrypi.local
    ```
-   
-3. Install some useful software.
-
-   ```bash
-   sudo apt-get install --yes emacs
-   ```
 
 4. Install the HyperPixel driver (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-hyperpixel-4).
 
