@@ -61,7 +61,7 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
        main()
    ```
    
-4. Enable the service.
+4. Enable and start the service.
 
    ```bash
    sudo systemctl enable atx-monitor.service
