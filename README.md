@@ -69,9 +69,7 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
    Install the Python libraries (including Adafruit Blinka, which may or may not actually be necessary).
    
    ```bash
-   pip3 install pyusb
-   pip3 install pyftdi
-   pip3 install adafruit-blinka
+   pip3 install pyusb pyftdi adafruit-blinka
    ```
 
    Ensure the Blinka knows that there's FT232H hardware connected.
