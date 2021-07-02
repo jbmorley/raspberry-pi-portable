@@ -49,6 +49,12 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
    cd reaspberry-pi-portable
    ./install.sh
    ```
+   
+   Amongst other things, this script installs [Mosh](https://mosh.org/), which you can use to reconnect to your Pi if you are so inclined. For example,
+   
+   ```bash
+   mosh pi@raspberrypi.local
+   ```
       
 6. Check out that the IO code is running correctly.
 
