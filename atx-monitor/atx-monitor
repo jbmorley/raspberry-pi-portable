@@ -3,5 +3,6 @@
 DIRECTORY="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 NAME=`basename "$0"`
 
+export BLINKA_FT232H=1
 export PIPENV_PIPFILE="${DIRECTORY}/Pipfile"
 pipenv run python3 "${DIRECTORY}/${NAME}.py" "$@"
