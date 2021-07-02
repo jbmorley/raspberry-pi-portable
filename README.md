@@ -60,30 +60,6 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
    cd reaspberry-pi-portable
    ./install.sh
    ```
-
-5. Install the Python USB libraries for communicating with the GPIO expansion board (https://learn.adafruit.com/circuitpython-on-any-computer-with-ft232h/linux).
-
-   ```bash
-   sudo apt-get install --yes libusb-1.0
-   ```
-   
-   Install the udev rules.
-   
-   ```bash
-   curl https://raw.githubusercontent.com/jbmorley/raspberry-pi-portable/main/11-ftdi.rules | sudo tee /etc/udev/rules.d/11-ftdi.rules 
-   ```
-   
-   Install the Python libraries (including Adafruit Blinka, which may or may not actually be necessary).
-   
-   ```bash
-   pip3 install pyusb pyftdi adafruit-blinka
-   ```
-
-   Ensure the Blinka knows that there's FT232H hardware connected.
-   
-   ```bash
-   echo "export BLINKA_FT232H=1" >> ~/.bashrc
-   ```
    
 6. Check out that the IO code is running correctly.
 
