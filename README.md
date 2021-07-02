@@ -43,6 +43,12 @@ Raspberry Pi based portable device
    ```bash
    curl https://get.pimoroni.com/hyperpixel4 | bash
    ```
+   
+5. Install pipenv.
+
+   ```bash
+   pip3 install pipenv
+   ```
 
 5. Install the Python USB libraries for communicating with the GPIO expansion board (https://learn.adafruit.com/circuitpython-on-any-computer-with-ft232h/linux).
 
