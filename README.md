@@ -101,10 +101,7 @@ Raspberry Pi based portable device
        main()
    ```
 
-## Open Quesitons 
-
-[ ] Does the IO board have pull up / pull down resistors?
-
 ## Notes
 
 - Some good systemd documentation at https://www.raspberrypi.org/documentation/linux/usage/systemd.md, and an example of the various phases on https://github.com/coreos/docs/blob/master/os/getting-started-with-systemd.md#unit-file.
+- Right now, it seems that wiring up the soft button to the USB GPIO board causes the ATX board to stop functioning correctly irrespective of how the GPIO is set to that board. It's possible that it needs a pull-down resistor.
