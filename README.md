@@ -48,19 +48,14 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
    curl https://get.pimoroni.com/hyperpixel4 | bash
    ```
    
-5. Clone the project.
+5. Clone the project and run the install script.
 
    ```bash
    git@github.com:jbmorley/raspberry-pi-portable.git
-   ```
-   
-5. Run the install script.
-
-   ```bash
    cd reaspberry-pi-portable
    ./install.sh
    ```
-   
+      
 6. Check out that the IO code is running correctly.
 
    ```python
