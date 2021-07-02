@@ -39,6 +39,7 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
 3. Install the service.
 
    ```bash
+   sudo atx-monitor/atx-monitor install
    ...
    ```
   
