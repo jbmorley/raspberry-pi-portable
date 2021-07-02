@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Ensure the Raspberry Pi is up to date.
+sudo apt-get update
+sudo apt-get --yes upgrade
+sudo apt-get --yes autoremove
+
 # Install some useful additional software.
 # N.B. This step is entirely optional but helps set up devices for development.
 sudo apt-get install --yes \
