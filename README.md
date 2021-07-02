@@ -107,4 +107,4 @@ Raspberry Pi based portable device
 
 ## Notes
 
-- Some good systemd documentation at https://www.raspberrypi.org/documentation/linux/usage/systemd.md.
+- Some good systemd documentation at https://www.raspberrypi.org/documentation/linux/usage/systemd.md, and an example of the various phases on https://github.com/coreos/docs/blob/master/os/getting-started-with-systemd.md#unit-file.
