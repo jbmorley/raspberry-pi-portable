@@ -15,22 +15,14 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
 - [ATXRaspi R3](https://lowpowerlab.com/shop/product/91)
 
 ## Software
-
-1. Ensure Raspbian is up to date.
-
-   ```bash
-   sudo apt-get update
-   sudo apt-get --yes upgrade
-   sudo apt-get --yes autoremove
-   ```
    
-4. Install the HyperPixel driver (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-hyperpixel-4).
+1. Install the HyperPixel driver (https://learn.pimoroni.com/tutorial/sandyj/getting-started-with-hyperpixel-4).
 
    ```bash
    curl https://get.pimoroni.com/hyperpixel4 | bash
    ```
    
-5. Clone the project and run the install script.
+2. Clone the project and run the install script.
 
    ```bash
    git@github.com:jbmorley/raspberry-pi-portable.git
@@ -44,7 +36,7 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
    mosh pi@raspberrypi.local
    ```
       
-6. Check out that the IO code is running correctly.
+3. Check out that the IO code is running correctly.
 
    ```python
    #!/usr/bin/env python3
@@ -69,20 +61,20 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
        main()
    ```
    
-7. Enable the service.
+4. Enable the service.
 
    ```bash
    sudo systemctl enable atx-monitor.service
    sudo systemctl start atx-monitor.service
    ```
    
-8. Check the service is running.
+5. Check the service is running.
 
    ```bash
    journalctl -u atx-monitor.service -f
    ```
 
-9. Reboot.
+6. Reboot.
 
 ## Notes
 
