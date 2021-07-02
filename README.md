@@ -36,32 +36,13 @@ There are many Raspberry Pi portables out there--I wanted to make one of my own 
    mosh pi@raspberrypi.local
    ```
       
-3. Check out that the IO code is running correctly.
+3. Install the service.
 
-   ```python
-   #!/usr/bin/env python3
-
-   import time
-
-   import board
-   import digitalio
-
-
-   def main():
-
-       button = digitalio.DigitalInOut(board.C1)
-       button.direction = digitalio.Direction.INPUT
-
-       while True:
-           print(button.value)
-           time.sleep(1)
-
-
-   if __name__ == "__main__":
-       main()
+   ```bash
+   ...
    ```
-   
-4. Enable and start the service.
+  
+5. Enable and start the service.
 
    ```bash
    sudo systemctl enable atx-monitor.service
